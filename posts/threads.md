@@ -1,6 +1,6 @@
 ---
 title: "Understanding Threads in Linux: A Complete Guide to Concurrent Programming"
-category: System Programming
+category: Programming
 date: 2025-07-30
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "WebAssembly: The Future of High-Performance Web Applications"
-category: Web Development
+category: Programming
 date: 2025-07-30
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Progressive Web Apps: Bridging the Gap Between Web and Native"
-category: Web Development
+category: Programming
 date: 2025-07-30
 ---
 

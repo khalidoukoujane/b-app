@@ -1,6 +1,6 @@
 ---
 title: "MinilibX 42: A Beginner's Gateway to Graphics Programming"
-category: Programming
+category: "42 Core Projects"
 date: 2025-07-30
 ---
 
