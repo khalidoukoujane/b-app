@@ -1,4 +1,5 @@
 import { Poppins, Mona_Sans } from "next/font/google";
+import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
 const poppins = Poppins({
   subsets: ["latin"],
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.variable} ${mona_sans.variable}`}>
+		<Navbar/>
         {children}
       </body>
     </html>
