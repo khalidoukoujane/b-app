@@ -15,7 +15,7 @@ const mona_sans = Mona_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${mona_sans.variable}`}>
+      <body className={`${poppins.variable} ${mona_sans.variable} bg-slate-50`}>
 		<Navbar/>
         {children}
       </body>
