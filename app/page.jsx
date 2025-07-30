@@ -1,10 +1,6 @@
 import Image from "next/image";
-import sortPosts from "@/lib/posts";
-
 
 export default function Home() {
-	const sorted = sortPosts();
-	console.log(sorted);
   return (
     <section className="w-full flex flex-col items-center pt-20">
       <div className="w-[50%]">
