@@ -9,7 +9,7 @@ const Navbar = () => {
         </div>
       </Link>
       <div className="">
-        <div className="flex items-center justify-center rounded-[5px] text-2xl font-semibold text-neutral-700">
+        <div className="flex items-center justify-center rounded-[5px] text-2xl font-semibold text-neutral-500">
           <p>contact.</p>
         </div>
       </div>
