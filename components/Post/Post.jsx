@@ -12,10 +12,10 @@ const Post = ({ category, posts }) => {
 
   return (
     <div className="w-full mb-8">
-      <h2 className="text-2xl font-semibold text-neutral-700 pb-2">
+      <h2 className="text-3xl font-semibold text-neutral-700 pb-2">
         {category}
       </h2>
-      <div className="w-full flex gap-10 items-center">
+      <div className="w-full flex gap-10 items-center text-xl">
         {posts?.map((post) => (
           <Link href={`/${post.id}`} key={post.id}>
             <p className="-font-mona-sans text-neutral-600 hover:text-neutral-400 hover:underline">
