@@ -6,12 +6,13 @@ export default function Home() {
   const posts = getCategorisedPosts();
   return (
     <section className="w-full flex flex-col items-center justify-center pt-20">
+	<div className="container px-5">
       <div className="flex flex-col text-center">
-        <h1 className="text-7xl -font-mona-sans font-semibold text-neutral-700">
+        <h1 className="text-5xl md:text-7xl -font-mona-sans font-semibold text-neutral-700">
           <span className="text-neutral-500"> Welcome,</span> <br /> to my
           Minimalist Blog.
         </h1>
-        <div className="mt-10 w-auto">
+        <div className="mt-10">
           <Image
             src={"/main-img2.webp"}
             width={800}
@@ -38,6 +39,7 @@ export default function Home() {
           </section>
         </div>
       </div>
+	  </div>
     </section>
   );
 }
