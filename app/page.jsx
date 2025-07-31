@@ -6,7 +6,7 @@ export default function Home() {
   const posts = getCategorisedPosts();
   return (
     <section className="w-full flex flex-col items-center justify-center pt-20">
-      <div className="flex flex-col items-center text-center">
+      <div className="flex flex-col text-center">
         <h1 className="text-7xl -font-mona-sans font-semibold text-neutral-700">
           <span className="text-neutral-500"> Welcome,</span> <br /> to my
           Minimalist Blog.
@@ -20,6 +20,12 @@ export default function Home() {
             layout="responsive"
             className="rounded-2xl"
           />
+        </div>
+        <div className="flex flex-col text-start mt-10">
+          <h1 className="text-5xl -font-mona-sans font-semibold text-neutral-500">
+            Latest posts.
+          </h1>
+          <hr className="w-1/2 text-neutral-500" />
         </div>
       </div>
       {/* <section className="w-full pt-10 -font-poppins">
