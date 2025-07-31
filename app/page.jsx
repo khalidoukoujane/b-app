@@ -22,6 +22,12 @@ export default function Home() {
           />
         </div>
       </div>
+      {/* <section className="w-full pt-10 -font-poppins">
+				{posts &&
+				  Object.entries(posts).map(([category, categoryPosts]) => (
+					<Post key={category} category={category} posts={categoryPosts} />
+				  ))}
+			  </section> */}
     </section>
   );
 }
