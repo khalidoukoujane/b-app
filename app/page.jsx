@@ -26,14 +26,18 @@ export default function Home() {
             Latest posts.
           </h1>
           <hr className="w-1/2 text-neutral-500" />
+          <section className="w-full pt-10 -font-poppins">
+            {posts &&
+              Object.entries(posts).map(([category, categoryPosts]) => (
+                <Post
+                  key={category}
+                  category={category}
+                  posts={categoryPosts}
+                />
+              ))}
+          </section>
         </div>
       </div>
-      {/* <section className="w-full pt-10 -font-poppins">
-				{posts &&
-				  Object.entries(posts).map(([category, categoryPosts]) => (
-					<Post key={category} category={category} posts={categoryPosts} />
-				  ))}
-			  </section> */}
     </section>
   );
 }
