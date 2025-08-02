@@ -15,7 +15,7 @@ const Post = ({ category, posts }) => {
       <h2 className="text-3xl font-semibold text-neutral-700 pb-2">
         {category}
       </h2>
-      <div className="w-full flex gap-10 items-center text-xl">
+      <div className="w-full flex flex-col md:flex-row gap-10 md:items-center items-start text-xl">
         {posts?.map((post) => (
           <Link href={`/${post.id}`} key={post.id}>
             <p className="-font-mona-sans text-neutral-600 hover:text-neutral-400 hover:underline">
