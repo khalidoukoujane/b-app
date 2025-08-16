@@ -2,6 +2,7 @@
 title: "Understanding Threads in Linux: A Complete Guide to Concurrent Programming"
 category: Programming
 date: 2025-07-30
+post_image: "/main-img2.webp"
 ---
 
 # Understanding Threads in Linux: A Complete Guide to Concurrent Programming

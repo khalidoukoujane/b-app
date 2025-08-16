@@ -2,6 +2,7 @@
 title: "Progressive Web Apps: Bridging the Gap Between Web and Native"
 category: Programming
 date: 2025-07-30
+post_image: "/main-img2.webp"
 ---
 
 # Progressive Web Apps: Bridging the Gap Between Web and Native

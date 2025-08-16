@@ -2,6 +2,7 @@
 title: "42 NetPractice: A Simple Guide to Network Basics"
 category: "42 Core Projects"
 date: 2025-07-30
+post_image: "/main-img2.webp"
 ---
 
 # 42 NetPractice: A Simple Guide to Network Basics
