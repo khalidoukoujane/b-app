@@ -3,7 +3,8 @@ import Link from "next/link";
 import { ArrowLeftIcon } from "@heroicons/react/24/solid";
 import { getPostContent } from "@/lib/posts";
 const page = async ({ params }) => {
-  const PostContent = await getPostContent(params.slug);
+  const resolvedParams = await params;
+  const PostContent = await getPostContent(resolvedParams.slug);
   return (
     <div className="w-full flex flex-col items-center justify-center my-20">
       <div className="flex flex-col w-10/12 md:w-1/2 -font-mona-sans text-xl">
