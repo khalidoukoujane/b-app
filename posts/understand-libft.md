@@ -2,8 +2,10 @@
 title: "Understanding the libft Project at 42"
 date: 2025-07-30
 category: "42 Core Projects"
-post_image: "/main-img2.webp"
+post_image: "/Desert Library Exploration.png"
 ---
+
+![My Image](/Desert%20Library%20Exploration.png)
 
 # Understanding the `libft` Project at 42
 
