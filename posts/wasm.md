@@ -2,7 +2,7 @@
 title: "WebAssembly: The Future of High-Performance Web Applications"
 category: Programming
 date: 2025-07-30
-post_image: "/main-img2.webp"
+post_image: "/Person in Yellow Puffer Jacket with Red Headphones.png"
 ---
 
 # WebAssembly: The Future of High-Performance Web Applications
