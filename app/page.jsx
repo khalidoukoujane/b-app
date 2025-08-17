@@ -8,13 +8,13 @@ export default function Home() {
     <section className="w-full flex flex-col items-center justify-center pt-20">
 	<div className="container px-5">
       <div className="flex flex-col text-center">
-        <h1 className="text-5xl md:text-7xl -font-mona-sans font-semibold text-neutral-700">
-          <span className="text-neutral-500"> Welcome,</span> <br /> to my
+        <h1 className="text-5xl md:text-7xl -font-mona-sans font-semibold text-[#212529]">
+          <span className="text-[#343a40]"> Welcome,</span> <br /> to my
           Minimalist Blog.
         </h1>
         <div className="mt-10">
           <Image
-            src={"/main-img2.webp"}
+            src={"/Futuristic Brain Art.png"}
             width={800}
             height={800}
             alt="main img"
@@ -23,8 +23,8 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col text-start mt-10">
-          <h1 className="text-5xl -font-mona-sans font-semibold text-neutral-500">
-            Latest posts.
+          <h1 className="text-5xl -font-mona-sans font-semibold text-[#343a40]">
+            Latest articles.
           </h1>
           <hr className="w-1/2 text-neutral-500" />
           <section className="w-full pt-10 -font-poppins">
