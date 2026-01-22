@@ -118,5 +118,3 @@ The application is fully responsive and optimized for:
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-⭐ Don't forget to give the project a star if you found it helpful!
